@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Editor / local agent state
+.claude/settings.local.json
+.vscode/
+.idea/
+*.swp
+
+# Node
+node_modules/
+npm-debug.log*
+.npmrc
+
+# npm pack / publish artifacts
+*.tgz
+
+# Python — build.py leaves these behind
+__pycache__/
+*.py[cod]
+
+# graft — generated cache, not source
+graft/.cache/
+
+# dist/ is generated but deliberately committed: it is what `npx spec-writer`
+# installs and what non-Claude assistants read. Rebuild with `python3 build.py`.

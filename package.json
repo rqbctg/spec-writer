@@ -1,0 +1,60 @@
+{
+  "name": "spec-writer",
+  "version": "0.0.1",
+  "description": "Software specification and product documentation chain: MRD, BRD, PRD, Design Spec, TRD, and QA Test Plan, built on ISO/IEC/IEEE 29148, 29119-3, 25010, BABOK v3, and WCAG 2.2. Installs into Claude Code, Cursor, Copilot, or any AGENTS.md agent, and prints paste-ready prompts for ChatGPT, Grok, and Gemini.",
+  "keywords": [
+    "spec",
+    "specification",
+    "software-documentation",
+    "technical-writing",
+    "mrd",
+    "brd",
+    "prd",
+    "design-spec",
+    "trd",
+    "qa",
+    "test-plan",
+    "tech-spec",
+    "system-design",
+    "requirements",
+    "requirements-engineering",
+    "product-management",
+    "claude-code",
+    "cursor",
+    "copilot",
+    "agents-md",
+    "chatgpt"
+  ],
+  "homepage": "https://github.com/rqbctg/spec-writer#readme",
+  "bugs": {
+    "url": "https://github.com/rqbctg/spec-writer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rqbctg/spec-writer.git"
+  },
+  "license": "MIT",
+  "author": "Rakib <rqb.ctg@gmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "spec-writer": "bin/cli.js"
+  },
+  "files": [
+    ".claude-plugin/",
+    "bin/",
+    "skills/",
+    "dist/",
+    "build.py",
+    "README.md",
+    "PLATFORMS.md"
+  ],
+  "scripts": {
+    "build": "node -e \"require('child_process').execSync('python3 build.py',{stdio:'inherit'})\"",
+    "check": "node -e \"require('child_process').execSync('python3 build.py --check',{stdio:'inherit'})\"",
+    "prepublishOnly": "npm run check && node bin/cli.js --version"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,21 @@
+# bin/cli.js
+
+- say · function · L32-L32 — say = (...a)
+- tilde · function · L33-L33 — tilde = p
+- ok · function · L34-L34 — ok = m
+- skip · function · L35-L35 — skip = m
+- die · function · L36-L36 — die = m
+- copyFile · function · L38-L45 — function copyFile(src, dest, force, base)
+- resolveModule · function · L47-L53 — function resolveModule(name)
+- run · method · L59-L69 — run(opts)
+- run · method · L73-L80 — run(opts)
+- run · method · L84-L88 — run(opts)
+- run · method · L92-L96 — run(opts)
+- detect · function · L100-L107 — function detect(dir)
+- cmdInstall · function · L110-L130 — function cmdInstall(args, opts)
+- cmdList · function · L132-L138 — function cmdList()
+- readPrompt · function · L140-L142 — function readPrompt(name)
+- cmdPrint · function · L144-L147 — function cmdPrint(args)
+- cmdCopy · function · L149-L162 — function cmdCopy(args)
+- cmdHelp · function · L164-L199 — function cmdHelp()
+- main · function · L202-L224 — function main(argv)

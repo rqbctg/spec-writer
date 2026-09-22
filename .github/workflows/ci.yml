@@ -1,0 +1,44 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      # dist/ is committed, so a PR that edits skills/ without rebuilding
+      # would ship stale bundles. This is the check that stops it.
+      # Also fails when the output-contract blocks copied across skills drift apart.
+      - name: dist/ matches skills/, shared blocks in sync
+        run: python3 build.py --check
+
+      - name: skill contract tests
+        run: python3 tests/test_skills.py
+
+      - name: cli runs
+        run: |
+          node bin/cli.js --version
+          node bin/cli.js list
+          node bin/cli.js print prd > /dev/null
+
+      - name: install into a scratch project
+        run: |
+          mkdir -p /tmp/scratch
+          node bin/cli.js install all --dir /tmp/scratch
+          test -f /tmp/scratch/.claude/skills/prd-writer/SKILL.md
+          test -f /tmp/scratch/.cursor/rules/trd-writer.mdc
+          test -f /tmp/scratch/.github/copilot-instructions.md
+          test -f /tmp/scratch/AGENTS.md

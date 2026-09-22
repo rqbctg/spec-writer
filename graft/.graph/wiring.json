@@ -1,0 +1,1697 @@
+{
+  "meta": {
+    "version": 1,
+    "nodeCount": 58,
+    "edgeCount": 143,
+    "languages": [
+      "javascript",
+      "python"
+    ],
+    "scopes": [
+      {
+        "prefix": "",
+        "label": "",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "bin/cli.js",
+      "name": "cli.js",
+      "kind": "file",
+      "path": "bin/cli.js",
+      "span": "L1-L237",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "f6b1468075add8d8e80992519808e39918b73fd17a796ede7318f83ae6bff625",
+      "chars": 9745,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#cmdCopy",
+      "name": "cmdCopy",
+      "kind": "function",
+      "path": "bin/cli.js",
+      "span": "L156-L169",
+      "signature": "function cmdCopy(args)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "754dba9723d79215690ea2d04195b5c35cc8efa60d20e5afd273a4281268e646",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#cmdHelp",
+      "name": "cmdHelp",
+      "kind": "function",
+      "path": "bin/cli.js",
+      "span": "L171-L206",
+      "signature": "function cmdHelp()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "2497b1cfd5f6501f82330e6f88a995e65ffdaa333e544b236726b1c1f2512fb2",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#cmdInstall",
+      "name": "cmdInstall",
+      "kind": "function",
+      "path": "bin/cli.js",
+      "span": "L117-L137",
+      "signature": "function cmdInstall(args, opts)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "65ad3b9c89223be151e77a9bfc09f6238cb44c964531070ffc99d5b242377eb6",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#cmdList",
+      "name": "cmdList",
+      "kind": "function",
+      "path": "bin/cli.js",
+      "span": "L139-L145",
+      "signature": "function cmdList()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "7b82fde4209422446c97b47acee518442f5b97c1c6a790b8283d0855d4877736",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#cmdPrint",
+      "name": "cmdPrint",
+      "kind": "function",
+      "path": "bin/cli.js",
+      "span": "L151-L154",
+      "signature": "function cmdPrint(args)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "af1da9d6fc5a8db7a93e119ce13a01c0eec258b394aa0d8fbb97637a4d002b47",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#copyFile",
+      "name": "copyFile",
+      "kind": "function",
+      "path": "bin/cli.js",
+      "span": "L38-L45",
+      "signature": "function copyFile(src, dest, force, base)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "025a51ebbdda3c14a87489172e569f341076608434b437642152bdb6b1bdb2c7",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#detect",
+      "name": "detect",
+      "kind": "function",
+      "path": "bin/cli.js",
+      "span": "L107-L114",
+      "signature": "function detect(dir)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "83f4766246a52441283620963c9051e286a406802a0e2fbe55e36755608b87ce",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#die",
+      "name": "die",
+      "kind": "function",
+      "path": "bin/cli.js",
+      "span": "L36-L36",
+      "signature": "die = m",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "2bb06d46ccab1e271da11e49482813059d40e51f69a5de118537977a91731b14",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#main",
+      "name": "main",
+      "kind": "function",
+      "path": "bin/cli.js",
+      "span": "L209-L234",
+      "signature": "function main(argv)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "df46dde377e68bc4010666d22cbfd82f135e8709653c5bd4ccc1c3823a90a82e",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#ok",
+      "name": "ok",
+      "kind": "function",
+      "path": "bin/cli.js",
+      "span": "L34-L34",
+      "signature": "ok = m",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "f054c01cb01d54c871edfb9a90d9d213f484ebbb4f697c213b5a95767357e415",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#readPrompt",
+      "name": "readPrompt",
+      "kind": "function",
+      "path": "bin/cli.js",
+      "span": "L147-L149",
+      "signature": "function readPrompt(name)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "12adfde1cd5ead1996e067a725db3772e7c61dba7313670302238d4b86134115",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#resolveModule",
+      "name": "resolveModule",
+      "kind": "function",
+      "path": "bin/cli.js",
+      "span": "L47-L53",
+      "signature": "function resolveModule(name)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "c4bd133fd3dd5983bb2f2c5e631080d3fdd73bba27d24b747656c54c472bef51",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#run",
+      "name": "run",
+      "kind": "method",
+      "path": "bin/cli.js",
+      "span": "L59-L76",
+      "signature": "run(opts)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "3738bc3b31f0ae8516ffea87463d9c04c6225b0905cd03e49703e7cea5b0bcde",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#run~2",
+      "name": "run",
+      "kind": "method",
+      "path": "bin/cli.js",
+      "span": "L80-L87",
+      "signature": "run(opts)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "9c8730f512b7fb58b5ec6d95fc1a66b09bcacce2b30d216c7d1f809913a545a7",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#run~3",
+      "name": "run",
+      "kind": "method",
+      "path": "bin/cli.js",
+      "span": "L91-L95",
+      "signature": "run(opts)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "e2769f33b30f88ee4e87c7e00aeca570ab9ef0d0e4ca5374dd0aef64cb23e9ad",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#run~4",
+      "name": "run",
+      "kind": "method",
+      "path": "bin/cli.js",
+      "span": "L99-L103",
+      "signature": "run(opts)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "f66d4de9ddc12374baed748033a58ef2acfed91bb10718e44b96255ee9ffbca9",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#say",
+      "name": "say",
+      "kind": "function",
+      "path": "bin/cli.js",
+      "span": "L32-L32",
+      "signature": "say = (...a)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "179d74dc292a1dad632ab5abbfd5666ab3d4980fda9d5e434ef78156f22be41f",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#skip",
+      "name": "skip",
+      "kind": "function",
+      "path": "bin/cli.js",
+      "span": "L35-L35",
+      "signature": "skip = m",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "b2233133ab5c01349fc7e202d180c9d24caf9298cc8c9fd84bc4b07e316f91a7",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "bin/cli.js#tilde",
+      "name": "tilde",
+      "kind": "function",
+      "path": "bin/cli.js",
+      "span": "L33-L33",
+      "signature": "tilde = p",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "be56f672bcb07858030c58cf374e4b6e05ad0c84461829bb8f9290200ce4ccd0",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py",
+      "name": "build.py",
+      "kind": "file",
+      "path": "build.py",
+      "span": "L1-L469",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "1620a379cf5318cc5e18b8820e6858682b8dd88a929d2a1c6bfd71dcb15db0be",
+      "chars": 22097,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#build_agents",
+      "name": "build_agents",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L172-L231",
+      "signature": "def build_agents(docs)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "1b8255d27cd493e82d1c98f413168af7a956a8524398a27bceef5aa2d670a102",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#build_all",
+      "name": "build_all",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L293-L310",
+      "signature": "def build_all()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "885fe5466bbb275779a661abf0b11b86d347ef62cd93ead6f510a8088f3580e4",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#build_instructions",
+      "name": "build_instructions",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L146-L169",
+      "signature": "def build_instructions(docs)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "ca05eaa9fb02001ab4a8789fa7569e70d20bbbc6df3f5a158122f1c7f2448d56",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#build_universal",
+      "name": "build_universal",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L134-L143",
+      "signature": "def build_universal(docs)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "075dac6cb02067f49231c2834345c5c234362099686552eef6d6d826f1a352b2",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#check",
+      "name": "check",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L322-L342",
+      "signature": "def check()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "20b6de3bbba983647e04bbdcbf29bfc6ef3a4a2899a48e6c477c73ff72241978",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#check_shared_blocks",
+      "name": "check_shared_blocks",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L398-L415",
+      "signature": "def check_shared_blocks()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "f0978fc93c0abf70dda3e7b4918a0f9c09d440f785c1ea60bf0128be00acf3dc",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#check_versions",
+      "name": "check_versions",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L418-L444",
+      "signature": "def check_versions()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "6d6419da0f5a135ff0bf3de03caeaa59c94e0904c8442009e57f640cbbb24805",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#expand_includes",
+      "name": "expand_includes",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L74-L94",
+      "signature": "def expand_includes(body, skill, path)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "458418495b6bd65673ec6eb1830ef721bb62187250ea5c5c6849e12376ddc5d2",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#expand_includes.swap",
+      "name": "swap",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L82-L88",
+      "signature": "def swap(m)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "4d249819ba3a3fb15fccb53dae0c203f64b8d97e42b70ada0881db5fff680d73",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#extract",
+      "name": "extract",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L380-L385",
+      "signature": "def extract(text, start, ends)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "391e2377f816431b4f4c32320779a532498e85485d1a4031c14592593acce584",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#load",
+      "name": "load",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L97-L115",
+      "signature": "def load()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "aadda34e2766bf4ee36a1d28e586047b42c6d649b2bcfd423fb39c5ff2cc3c36",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#main",
+      "name": "main",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L447-L464",
+      "signature": "def main()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "064dee3a52ae370123187db55a66e0112a29abd4542b3c0660163d25a80bee31",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#normalise",
+      "name": "normalise",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L388-L395",
+      "signature": "def normalise(block, skill)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "bb732130a2bb9ab263b99fa43bb6e262b763d6f39811bf332169fc3c1883c80b",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#parse_frontmatter",
+      "name": "parse_frontmatter",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L39-L66",
+      "signature": "def parse_frontmatter(text, path)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "4c42a7e033414ad09c70ceda0d5ca1574dd3709a8867afdb0eb5c579f807b93c",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#preamble",
+      "name": "preamble",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L125-L130",
+      "signature": "def preamble(d)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "f8b9a34fc6fcbd7dd09c83264df4ea16661ec944e407c02e11c8620e17be46a2",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#tree",
+      "name": "tree",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L313-L319",
+      "signature": "def tree(root)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "19ed4aa0070be721f4ccc1258646ab65cab32613307225fd58bd0720fdaced7b",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#unquote",
+      "name": "unquote",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L32-L36",
+      "signature": "def unquote(v)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "204a605ef4114e83d27a3c586a3501d591cf2656d46caf179135b535082d03b2",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "build.py#write",
+      "name": "write",
+      "kind": "function",
+      "path": "build.py",
+      "span": "L118-L122",
+      "signature": "def write(rel, text)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "77d9f976fe6bc3c93c53bbfc2cb5b7e7d591bec4c7e38ec42c98cdff3f725d5b",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py",
+      "name": "test_skills.py",
+      "kind": "file",
+      "path": "tests/test_skills.py",
+      "span": "L1-L295",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "5f4ece7d1c9efb8ff792aee0549d71d244ee025e5c5c9f7774deb171928267e8",
+      "chars": 13486,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#check",
+      "name": "check",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L36-L39",
+      "signature": "def check(cond, msg)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "5ada83074d7e1a93d76dcf3e8e2d8c78a983964afb9293e9731287b445119b0c",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#frontmatter",
+      "name": "frontmatter",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L46-L56",
+      "signature": "def frontmatter(text, path)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "497e2cb42a8b57e315a8c47eae06743be56bd76420218a493a327581c504bf0d",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#header_fields",
+      "name": "header_fields",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L60-L72",
+      "signature": "def header_fields(text)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "5f171009624c1398a9280115d0d21ed52806097584cd5dd9aeaabac240f109aa",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#main",
+      "name": "main",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L277-L290",
+      "signature": "def main()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "105014a7e6733eed955d92b102a9715b03d7666851efeb9c74f3ca0b213721ba",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#read",
+      "name": "read",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L42-L43",
+      "signature": "def read(*parts)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "198f039365b82f1f3b1830af71fe392202d6d4697f23edcb954c937cfb50a8fe",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#test_absent_section_markers",
+      "name": "test_absent_section_markers",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L188-L206",
+      "signature": "def test_absent_section_markers()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "b623fdf969360450950f04c62793c03b34d1554d4b2b7a9cb86374d0147fbaa8",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#test_build_is_clean",
+      "name": "test_build_is_clean",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L268-L273",
+      "signature": "def test_build_is_clean()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "ad11985780ba952551d4e0820eeb90e40fbff5c910eb574e6212fe0b9e1eb483",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#test_bundles_are_standalone",
+      "name": "test_bundles_are_standalone",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L242-L254",
+      "signature": "def test_bundles_are_standalone()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "9b20bdf4fd68d39d5dc6141aac65eca8342187006758d020d9be997beb58a544",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#test_fences_balanced",
+      "name": "test_fences_balanced",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L89-L106",
+      "signature": "def test_fences_balanced()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "08f927abbf61f5b08e71886a53acb2d610d19f0c3c1e0cea6bf53a0701244f7b",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#test_frontmatter",
+      "name": "test_frontmatter",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L75-L86",
+      "signature": "def test_frontmatter()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "380942f4b75a104d60ac68cd2801b23874acaea2e7dcff6f42f1e75ef9c64a59",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#test_header_block",
+      "name": "test_header_block",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L135-L144",
+      "signature": "def test_header_block()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "11a6a0b1f13d0db6a14fccf44836f53e596d294bc1ddf0e46b5953c803788d8c",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#test_id_vocabulary",
+      "name": "test_id_vocabulary",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L177-L185",
+      "signature": "def test_id_vocabulary()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "e1c7fc02e75dfd5a3ffba4efa49ffc8e232b7b92227dc0147920ac72db747349",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#test_includes_resolve",
+      "name": "test_includes_resolve",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L109-L132",
+      "signature": "def test_includes_resolve()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "573030799013c3b73d7192fb99a4ce22a457a797920755ad6d8437f1b95a3131",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#test_install_carries_references",
+      "name": "test_install_carries_references",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L226-L239",
+      "signature": "def test_install_carries_references()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "8e516e359cd67601ea228208035a7bc52abb2b6d752e159fe57ccd403767c0e4",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#test_manifests",
+      "name": "test_manifests",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L257-L265",
+      "signature": "def test_manifests()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "987533f9f6793e3be2db22f75eed3340b97f4d36e6507507e48e4c31f4d34bbf",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#test_orphan_marker",
+      "name": "test_orphan_marker",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L209-L223",
+      "signature": "def test_orphan_marker()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "0898ac2406e196b60ef2690d0b239e71d42837ff30ea7313877c35a2e712449c",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#test_output_paths",
+      "name": "test_output_paths",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L166-L174",
+      "signature": "def test_output_paths()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "8fdb5141fe271f938b5d25b655e6ff697da895d80b803215a329d37561387acc",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "tests/test_skills.py#test_required_sections",
+      "name": "test_required_sections",
+      "kind": "function",
+      "path": "tests/test_skills.py",
+      "span": "L147-L163",
+      "signature": "def test_required_sections()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "0d634227ed34f95ea435a6497e3480b05b7a083b75a1727be09071f3870f0de9",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#main",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#cmdCopy",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#cmdHelp",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#cmdInstall",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#cmdList",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#cmdPrint",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#copyFile",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#detect",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#die",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#main",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#ok",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#readPrompt",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#resolveModule",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#run",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#run~2",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#run~3",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#run~4",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#say",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#skip",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js",
+      "target": "bin/cli.js#tilde",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#cmdCopy",
+      "target": "bin/cli.js#die",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#cmdCopy",
+      "target": "bin/cli.js#readPrompt",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#cmdCopy",
+      "target": "bin/cli.js#resolveModule",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#cmdCopy",
+      "target": "bin/cli.js#say",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#cmdHelp",
+      "target": "bin/cli.js#say",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#cmdInstall",
+      "target": "bin/cli.js#detect",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#cmdInstall",
+      "target": "bin/cli.js#die",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#cmdInstall",
+      "target": "bin/cli.js#say",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#cmdInstall",
+      "target": "bin/cli.js#tilde",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#cmdList",
+      "target": "bin/cli.js#say",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#cmdPrint",
+      "target": "bin/cli.js#readPrompt",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#cmdPrint",
+      "target": "bin/cli.js#resolveModule",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#copyFile",
+      "target": "bin/cli.js#ok",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#copyFile",
+      "target": "bin/cli.js#skip",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#main",
+      "target": "bin/cli.js#cmdCopy",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#main",
+      "target": "bin/cli.js#cmdHelp",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#main",
+      "target": "bin/cli.js#cmdInstall",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#main",
+      "target": "bin/cli.js#cmdList",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#main",
+      "target": "bin/cli.js#cmdPrint",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#main",
+      "target": "bin/cli.js#die",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#main",
+      "target": "bin/cli.js#say",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#ok",
+      "target": "bin/cli.js#say",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#resolveModule",
+      "target": "bin/cli.js#die",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#run",
+      "target": "bin/cli.js#copyFile",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#run",
+      "target": "bin/cli.js#say",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#run",
+      "target": "bin/cli.js#tilde",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#run~2",
+      "target": "bin/cli.js#copyFile",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#run~2",
+      "target": "bin/cli.js#say",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#run~2",
+      "target": "bin/cli.js#tilde",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#run~3",
+      "target": "bin/cli.js#copyFile",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#run~3",
+      "target": "bin/cli.js#say",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#run~4",
+      "target": "bin/cli.js#copyFile",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#run~4",
+      "target": "bin/cli.js#say",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "bin/cli.js#skip",
+      "target": "bin/cli.js#say",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#main",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#build_agents",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#build_all",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#build_instructions",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#build_universal",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#check",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#check_shared_blocks",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#check_versions",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#expand_includes",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#extract",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#load",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#main",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#normalise",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#parse_frontmatter",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#preamble",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#tree",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#unquote",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "build.py#write",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "json",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py",
+      "target": "os",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#build_agents",
+      "target": "build.py#preamble",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#build_agents",
+      "target": "build.py#write",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#build_all",
+      "target": "build.py#build_agents",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#build_all",
+      "target": "build.py#build_instructions",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#build_all",
+      "target": "build.py#build_universal",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#build_all",
+      "target": "build.py#load",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#build_all",
+      "target": "build.py#write",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#build_instructions",
+      "target": "build.py#preamble",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#build_instructions",
+      "target": "build.py#write",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#build_universal",
+      "target": "build.py#preamble",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#build_universal",
+      "target": "build.py#write",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#check",
+      "target": "build.py#build_all",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#check",
+      "target": "build.py#tree",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#check_shared_blocks",
+      "target": "build.py#extract",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#check_shared_blocks",
+      "target": "build.py#normalise",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#expand_includes",
+      "target": "build.py#expand_includes.swap",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#load",
+      "target": "build.py#expand_includes",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#load",
+      "target": "build.py#parse_frontmatter",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#main",
+      "target": "build.py#build_all",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#main",
+      "target": "build.py#check",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#main",
+      "target": "build.py#check_shared_blocks",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#main",
+      "target": "build.py#check_versions",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "build.py#parse_frontmatter",
+      "target": "build.py#unquote",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#main",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#check",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#frontmatter",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#header_fields",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#main",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#read",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#test_absent_section_markers",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#test_build_is_clean",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#test_bundles_are_standalone",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#test_fences_balanced",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#test_frontmatter",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#test_header_block",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#test_id_vocabulary",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#test_includes_resolve",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#test_install_carries_references",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#test_manifests",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#test_orphan_marker",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#test_output_paths",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "tests/test_skills.py#test_required_sections",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py",
+      "target": "json",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#frontmatter",
+      "target": "tests/test_skills.py#check",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_absent_section_markers",
+      "target": "tests/test_skills.py#check",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_absent_section_markers",
+      "target": "tests/test_skills.py#read",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_build_is_clean",
+      "target": "tests/test_skills.py#check",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_bundles_are_standalone",
+      "target": "tests/test_skills.py#check",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_bundles_are_standalone",
+      "target": "tests/test_skills.py#read",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_fences_balanced",
+      "target": "tests/test_skills.py#check",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_fences_balanced",
+      "target": "tests/test_skills.py#read",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_frontmatter",
+      "target": "tests/test_skills.py#check",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_frontmatter",
+      "target": "tests/test_skills.py#frontmatter",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_frontmatter",
+      "target": "tests/test_skills.py#read",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_header_block",
+      "target": "tests/test_skills.py#check",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_header_block",
+      "target": "tests/test_skills.py#header_fields",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_header_block",
+      "target": "tests/test_skills.py#read",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_id_vocabulary",
+      "target": "tests/test_skills.py#check",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_id_vocabulary",
+      "target": "tests/test_skills.py#read",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_includes_resolve",
+      "target": "tests/test_skills.py#check",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_includes_resolve",
+      "target": "tests/test_skills.py#read",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_install_carries_references",
+      "target": "tests/test_skills.py#check",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_manifests",
+      "target": "tests/test_skills.py#check",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_orphan_marker",
+      "target": "tests/test_skills.py#check",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_orphan_marker",
+      "target": "tests/test_skills.py#read",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_output_paths",
+      "target": "tests/test_skills.py#check",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_output_paths",
+      "target": "tests/test_skills.py#read",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_required_sections",
+      "target": "tests/test_skills.py#check",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "tests/test_skills.py#test_required_sections",
+      "target": "tests/test_skills.py#read",
+      "relation": "calls",
+      "confidence": "extracted"
+    }
+  ]
+}
