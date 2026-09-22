@@ -3,7 +3,7 @@
 The instructions in `skills/` are plain Markdown and vendor-neutral — no Claude-specific tool calls, no assumed filesystem, no assumed web search. `build.py` repackages them for each assistant that needs a different wrapper.
 
 ```
-npx spec-writer install     # install wherever it's wanted
+npx @rqbctg/spec-writer install     # install wherever it's wanted
 python3 build.py                  # regenerate dist/ after editing skills/
 ```
 
@@ -11,15 +11,15 @@ The CLI is dependency-free — Node 18+ and nothing else — so `npx` starts imm
 
 | Assistant | Use | Writes files? |
 |---|---|---|
-| **Claude Code** | `npx spec-writer install claude`, or the plugin manifest | Yes → `docs/` |
+| **Claude Code** | `npx @rqbctg/spec-writer install claude`, or the plugin manifest | Yes → `docs/` |
 | **Claude (web/desktop)** | Upload `dist/universal/spec-writer-complete.md` to a Project | Yes, as an artifact |
 | **ChatGPT** | Custom GPT, Project, or plain chat — see `dist/platforms/chatgpt.md` | With Code Interpreter |
 | **Grok** | Custom instructions, project files, or plain chat — see `dist/platforms/grok.md` | No → tier 3 |
 | **Gemini** | Gems or Gemini CLI — see `dist/platforms/gemini.md` | CLI only |
-| **Cursor** | `npx spec-writer install cursor` | Yes → `docs/` |
-| **GitHub Copilot** | `npx spec-writer install copilot` | Yes → `docs/` |
-| **Codex / Jules / other agents** | `npx spec-writer install agents` | Yes → `docs/` |
-| **Anything else** | `npx spec-writer copy <doc>`, paste, then your idea | Depends |
+| **Cursor** | `npx @rqbctg/spec-writer install cursor` | Yes → `docs/` |
+| **GitHub Copilot** | `npx @rqbctg/spec-writer install copilot` | Yes → `docs/` |
+| **Codex / Jules / other agents** | `npx @rqbctg/spec-writer install agents` | Yes → `docs/` |
+| **Anything else** | `npx @rqbctg/spec-writer copy <doc>`, paste, then your idea | Depends |
 
 ## How the output survives a platform with no filesystem
 

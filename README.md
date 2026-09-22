@@ -20,21 +20,21 @@ The PRD is a living document rather than a one-off: it moves through six stages 
 **Any editor or agent, one command:**
 
 ```
-npx spec-writer install          # detects Claude Code, Cursor, Copilot, AGENTS.md
-npx spec-writer install all      # install into every one of them
-npx spec-writer install claude --global
+npx @rqbctg/spec-writer install          # detects Claude Code, Cursor, Copilot, AGENTS.md
+npx @rqbctg/spec-writer install all      # install into every one of them
+npx @rqbctg/spec-writer install claude --global
 ```
 
 **ChatGPT, Grok, Gemini** — nothing to install; they take a pasted prompt:
 
 ```
-npx spec-writer copy prd         # to clipboard, paste and send your idea
-npx spec-writer print all > spec-writer.md
+npx @rqbctg/spec-writer copy prd         # to clipboard, paste and send your idea
+npx @rqbctg/spec-writer print all > spec-writer.md
 ```
 
 ```
-npx spec-writer list             # the six documents
-npx spec-writer --help
+npx @rqbctg/spec-writer list             # the six documents
+npx @rqbctg/spec-writer --help
 ```
 
 **Claude Code** — or as a local plugin marketplace, if you prefer plugins to skills:
@@ -173,7 +173,7 @@ Reports coverage (a parent ID with no child), orphans (a child citing a parent t
 ChatGPT, Grok, and Gemini can't write files, so the same chain runs by paste:
 
 ```
-npx spec-writer copy prd        # full instructions to clipboard
+npx @rqbctg/spec-writer copy prd        # full instructions to clipboard
 ```
 
 Paste, send your idea, and the document comes back in one fenced Markdown block with its filename named — save it as `docs/prd-writer/<slug>-prd-v0.0.1.md` yourself and attach it when you run the next stage.
