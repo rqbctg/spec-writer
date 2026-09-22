@@ -36,7 +36,6 @@
   "license": "MIT",
   "author": "Rakib <rqb.ctg@gmail.com>",
   "type": "commonjs",
-  "main": "index.js",
   "bin": {
     "spec-writer": "bin/cli.js"
   },
