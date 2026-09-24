@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@rqbctg/spec-writer">
-    <img src="https://img.shields.io/npm/v/@rqbctg/spec-writer?style=flat-square" alt="npm version">
+    <img src="https://img.shields.io/npm/v/@rqbctg/spec-writer?style=flat-square&amp;color=blue" alt="npm version">
   </a>
   <a href="https://github.com/rqbctg/spec-writer/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/rqbctg/spec-writer?style=flat-square" alt="License">
