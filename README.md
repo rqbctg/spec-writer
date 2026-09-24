@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rqbctg/spec-writer/main/.github/images/spec-writer.png" alt="spec-writer" width="180"/>
+  <img src="https://raw.githubusercontent.com/rqbctg/spec-writer/main/.github/images/spec-writer.png" alt="spec-writer" width="420"/>
 </p>
 
 <p align="center">
