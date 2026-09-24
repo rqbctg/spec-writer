@@ -1,7 +1,7 @@
 {
   "name": "spec-writer",
   "description": "Six connected specification documents — MRD, BRD, PRD, Design Spec, TRD, and QA Test Plan — with traceable requirement IDs from market opportunity through to test coverage.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": {
     "name": "Rakib",
     "email": "rakib@withloopin.com"

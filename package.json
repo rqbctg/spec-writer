@@ -1,6 +1,6 @@
 {
   "name": "@rqbctg/spec-writer",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Software specification and product documentation chain: MRD, BRD, PRD, Design Spec, TRD, and QA Test Plan, built on ISO/IEC/IEEE 29148, 29119-3, 25010, BABOK v3, and WCAG 2.2. Installs into Claude Code, Cursor, Copilot, or any AGENTS.md agent, and prints paste-ready prompts for ChatGPT, Grok, and Gemini.",
   "keywords": [
     "spec",
