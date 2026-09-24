@@ -1,6 +1,34 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rqbctg/spec-writer/main/.github/images/spec-writer.png" alt="spec-writer" width="180"/>
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/@rqbctg/spec-writer">
+    <img src="https://img.shields.io/npm/v/@rqbctg/spec-writer?style=flat-square" alt="npm version">
+  </a>
+  <a href="https://www.npmjs.com/package/@rqbctg/spec-writer">
+    <img src="https://img.shields.io/npm/dm/@rqbctg/spec-writer?style=flat-square" alt="npm downloads">
+  </a>
+  <a href="https://github.com/rqbctg/spec-writer/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/rqbctg/spec-writer?style=flat-square" alt="License">
+  </a>
+  <a href="https://github.com/rqbctg/spec-writer/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/rqbctg/spec-writer/ci.yml?style=flat-square" alt="Build Status">
+  </a>
+  <a href="https://nodejs.org">
+    <img src="https://img.shields.io/node/v/@rqbctg/spec-writer?style=flat-square" alt="Node version">
+  </a>
+</p>
+
 # spec-writer
 
-A connected set of software specification and product-documentation instructions that runs on any AI assistant — Claude, ChatGPT, Grok, Gemini, Cursor, Copilot, or anything else that reads a prompt. Six documents, one chain — each generated from the one above it, each carrying traceable requirement IDs, so an idea can be followed from market opportunity through to test coverage.
+Ask an AI assistant for a spec and you get one document that forgets everything the last one said. Requirements drift between documents, nobody can trace a test case back to the reason it exists, and every rewrite starts from the conversation instead of the file.
+
+spec-writer runs the whole chain instead. Six documents — MRD, BRD, PRD, design spec, TRD, QA test plan — each generated from the one above it, each carrying stable requirement IDs, so an idea can be followed from market opportunity through to test coverage.
+
+Every stage reads its upstream document from disk, not from chat: it resolves the newest matching version, cites that exact filename, writes the next version alongside the old one, and appends a changelog entry. That is what makes staleness, orphans, and coverage gaps mechanical to check rather than a matter of memory.
+
+*Vendor-neutral Markdown: it runs on any assistant that reads a prompt — Claude, ChatGPT, Grok, Gemini, Cursor, Copilot. See [Install](#install).*
 
 | # | Document | Skill | Answers |
 |---|---|---|---|
