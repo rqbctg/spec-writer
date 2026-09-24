@@ -27,8 +27,8 @@
       "signature": null,
       "exported": true,
       "origin": "ast",
-      "body_hash": "f6b1468075add8d8e80992519808e39918b73fd17a796ede7318f83ae6bff625",
-      "chars": 9745,
+      "body_hash": "dfcbafe3d90219dcc0416c18a3843dea8a0052ee009632237eeed83ad1fef416",
+      "chars": 9833,
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -56,7 +56,7 @@
       "signature": "function cmdHelp()",
       "exported": false,
       "origin": "ast",
-      "body_hash": "2497b1cfd5f6501f82330e6f88a995e65ffdaa333e544b236726b1c1f2512fb2",
+      "body_hash": "f4f01e998cf945dcc2805e8af6f0fae48e0be9478f29e088ac020dcf70070947",
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -70,7 +70,7 @@
       "signature": "function cmdInstall(args, opts)",
       "exported": false,
       "origin": "ast",
-      "body_hash": "65ad3b9c89223be151e77a9bfc09f6238cb44c964531070ffc99d5b242377eb6",
+      "body_hash": "f9dc86372b08c7019086fd7d365cd660f358d9e65fde5bc37d061899b34aafdb",
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -84,7 +84,7 @@
       "signature": "function cmdList()",
       "exported": false,
       "origin": "ast",
-      "body_hash": "7b82fde4209422446c97b47acee518442f5b97c1c6a790b8283d0855d4877736",
+      "body_hash": "0950e94b2dbfaf821dbf0c3d4aad0b0fbe1328ccf2e5d54e4971cc8906f56545",
       "summary_state": "pending",
       "summary": null,
       "crux": null
